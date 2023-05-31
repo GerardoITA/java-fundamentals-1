@@ -38,8 +38,8 @@ public class Biglietto {
         prezzoFinale = prezzoBase * ( 1 - sconto);
 
         DecimalFormat dueDecimali;
-        dueDecimali = new DecimalFormat("0.00");
+        dueDecimali = new DecimalFormat("0.00€");
 
-        System.out.println("Il prezzo del biglietto è " + dueDecimali.format(prezzoFinale) + "€");
+        System.out.println("Il prezzo del biglietto è " + dueDecimali.format(prezzoFinale));
     }
 }
